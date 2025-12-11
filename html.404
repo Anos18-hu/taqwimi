@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="refresh" content="0; URL=/" />
+    <script>
+      // fallback for routes: change URL to root without losing hash
+      (function() {
+        var path = location.pathname;
+        if (path !== '/' ) {
+          location.replace('/taqwimi/');
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
